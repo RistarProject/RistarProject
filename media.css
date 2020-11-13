@@ -1,0 +1,254 @@
+@media screen and (max-width:1201px){
+    body{
+        max-height: 2304px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+
+
+
+
+
+/*HEADER-MENU*/
+
+
+
+
+.menu{
+    max-width: 730px;
+}
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+
+.right_star{
+    position: absolute;
+    left: 90%;
+}
+
+
+
+
+/*MAIN* ГЛАВНАЯ*/
+
+
+
+
+.cover_link{
+    width: 300px;
+    height: 300px;
+}
+
+.rgba{
+    width: 300px;
+    height: 281px; 
+}
+
+.cover_serial_voice{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_serial_kiss_of_the_cobra{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_story_meditation{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-alderamin-in-the-sky{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-tomorrow{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-she-dragon{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/*MAIN МАНГА*/
+
+
+
+
+.cover-manga-love-at-a-special-level{
+    width: 300px;
+    height: 300px;
+}
+
+.cover0manga-boring-lie{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-I-m-not-used-to-being--girl{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-you-can-confess-your-love-to-me{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-hellish-agents{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-why-i-love-you{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-let-s-continue-tomorrow{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-Sensei_Ote-o-Douzo{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-manga-love-at-a-special-level{
+    margin-top: 0px;
+}
+
+.cover0manga-boring-lie{
+    margin-top: 0px;
+}
+
+.cover-manga-I-m-not-used-to-being--girl{
+    margin-top: 0px;
+}
+
+.cover-manga-you-can-confess-your-love-to-me{
+    margin-top: 0px;
+}
+
+.cover-manga-hellish-agents{
+    margin-top: 0px;
+}
+
+.cover-manga-why-i-love-you{
+    margin-top: 0px;
+}
+
+.cover-manga-let-s-continue-tomorrow{
+    margin-top: 0px;
+}
+
+.cover-manga-Sensei_Ote-o-Douzo{
+    margin-top: 0px;
+}
+
+
+.cover-manga-Sensei_Ote-o-Douzo:last-child{
+    position: relative;
+    right: 387px;
+}
+
+
+
+
+
+/*MAIN СЕРИАЛЫ*/
+
+
+
+
+.cover_Love_that_changed_the_world{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_serial_angkor{
+    width: 300px;
+    height: 300px;
+}
+
+.cover_serial_angkor{
+    margin-top: 0px;
+}
+
+
+
+
+
+/*MAIN СКАЗКИ*/
+
+
+
+
+.cover-fairy-tale-birth{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-shine{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-trickle{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-strawberry-and-dragon{
+    width: 300px;
+    height: 300px;
+}
+
+.cover-fairy-tales-strawberry-and-dragon{
+    margin-top: 0px;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+.social{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.vk{
+    width: 77px;
+    height: 77px;
+}
+
+.youtube{
+    width: 77px;
+    height: 77px;
+}
+
+}
