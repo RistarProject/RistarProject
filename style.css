@@ -184,7 +184,7 @@ body{
 .cover_serial_voice{
     width: 354px;
     height: 332px;
-    background: url(images/cover_serial_voice.png) no-repeat;
+    background: url(images/cover_serial_voice.PNG) no-repeat;
     background-size: contain;
     transition-duration: 500ms;
 }
@@ -200,7 +200,7 @@ body{
 .cover_story_meditation{
     width: 354px;
     height: 332px;
-    background: url(images/cover_story_meditation.png) no-repeat;
+    background: url(images/cover_story_meditation.PNG) no-repeat;
     background-size: contain;
     transition-duration: 500ms;
 }
