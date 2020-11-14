@@ -30,7 +30,7 @@ body{
 }
 
 .logo{
-    margin-top: 14px;
+    margin-top: 10px;
     margin-left: 6px;
 }
 
@@ -151,6 +151,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1170px;
 }
 
 .recommendations-for-viewing h3{
@@ -168,6 +169,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1170px;
 }
 
 .recommendations-for-forgiveness h3{
