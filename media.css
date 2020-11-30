@@ -457,7 +457,6 @@ body{
 .cover_manga{
     display: inline-flex;
     flex-direction: column;
-    margin-left: 25%;
 }
 
 
@@ -473,7 +472,6 @@ body{
 .manga{
     display: inline-flex;
     flex-direction: column;
-    margin-left: 25%;
 }
 
 
@@ -489,7 +487,6 @@ body{
 .serial{
     display: inline-flex;
     flex-direction: column;
-    margin-left: 25%;
 }
 
 
@@ -505,7 +502,6 @@ body{
 .fairy-tales{
     display: inline-flex;
     flex-direction: column;
-    margin-left: 25%;
 }
 
 .cover-fairy-tales-shine{
@@ -519,7 +515,6 @@ body{
     .cover,.cover_manga,.manga,.seria,.fairy-tales{
         display: inline-flex;
         flex-direction: column;
-        margin-left: 20%;
     }
 
     .aitem{
@@ -531,7 +526,6 @@ body{
     .cover,.cover_manga,.manga,.seria,.fairy-tales{
         display: inline-flex;
         flex-direction: column;
-        margin-left: 15%;
     }
 
     .aitem{
