@@ -26,6 +26,8 @@
 
 
 
+
+
 /*HEADER*/
 
 
@@ -249,6 +251,266 @@
 .youtube{
     width: 77px;
     height: 77px;
+}
+
+}
+
+
+
+
+
+/*ПЛАНШЕТ*/
+
+
+
+
+
+@media screen and (max-width:993px){
+
+
+
+
+
+/*НАВИГАЦИЯ*/ 
+
+
+
+
+
+.menu{
+    max-width: 900px;
+}
+
+
+
+
+ /*MAIN МАНГА*/   
+
+
+
+
+ .cover-manga-Sensei_Ote-o-Douzo:last-child{
+    position: relative;
+    right: 8px;
+ }
+
+
+
+
+
+
+/*MAIN СКАЗКИ*/
+
+
+
+
+
+.cover-fairy-tales-shine{
+    position: relative;
+    left: 0px; 
+}
+
+}
+
+
+
+
+/*МОБИЛКА*/
+
+
+
+
+@media screen and (max-width:668px){
+
+
+
+
+body{
+     max-height: 3804px;
+}
+
+.container{
+    width: 100%;
+}
+
+
+
+
+/*НАВИГАЦИЯ*/
+
+
+
+
+
+.menu a{
+    display: none;
+}
+
+.burger_menu{
+    display: block;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.menu__icon{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffa600;
+    position: relative;
+}
+
+.menu__icon:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffa600;
+    position: absolute;
+    top: -10px;
+    transition: transform 0.3s ease, top 0.3s linear 0.3s;
+}
+
+.menu__icon:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffa600;
+    position: absolute;
+    top: 10px;
+    transition: transform 0.3s ease, top 0.3s linear 0.3s;
+}
+
+.menu__icon.menu__icon__active{
+    background-color: transparent;
+}
+
+.menu__icon.menu__icon__active:before{
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.3s linear, transform 0.3s ease 0.3s;
+}
+
+.menu__icon.menu__icon__active:after{
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.2s linear, transform 0.3s ease 0.3s;
+}
+
+.menu__mobile__active{
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(98, 0, 255,0.7);
+    position: relative;
+    top: 61px;
+    left: 50px;
+    
+}
+
+.menu__mobile__active a{
+    display: block;
+    color: #ffffff;
+    margin-top: 1px;
+    margin-left: -20px;
+}
+
+.menu__mobile__active a:active{
+    color: #ffa600;
+}
+
+
+
+
+
+/*HEDEAR*/
+
+
+
+
+
+.left_star,.right_star{
+    display: none;
+}
+
+.aitem{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+
+
+
+/*MAIN ГЛАВНАЯ*/
+
+
+
+
+.cover{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.cover_manga{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+
+
+
+
+/*MAIN МАНГА*/
+
+
+
+
+
+.manga{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+
+
+
+
+/*MAIN СЕРИВЛЫ*/
+
+
+
+
+
+.serial{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+
+
+
+
+/*MAIN СКАЗКИ*/
+
+
+
+
+
+.fairy-tales{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.cover-fairy-tales-shine{
+    position: relative;
+    left: 0px;
 }
 
 }
