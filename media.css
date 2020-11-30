@@ -514,3 +514,27 @@ body{
 }
 
 }
+
+@media screen and (max-width:568px){
+    .cover,.cover_manga,.manga,.seria,.fairy-tales{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+
+    .aitem{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width:468px){
+    .cover,.cover_manga,.manga,.seria,.fairy-tales{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .aitem{
+        margin-left: 35%;
+    }
+}
