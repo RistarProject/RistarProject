@@ -448,66 +448,78 @@ body{
 
 
 
-.cover{
-    display: block;
-}
-
-.cover_manga{
-    display: block;
-
-}
-
-
-
-
-
-/*MAIN МАНГА*/
-
-
-
-
-
-.manga{
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 25%;
-}
-
-
-
-
-
-/*MAIN СЕРИВЛЫ*/
-
-
-
-
-
-.serial{
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 25%;
-}
-
-
-
-
-
-/*MAIN СКАЗКИ*/
-
-
-
-
-
-.fairy-tales{
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 25%;
-}
 
 .cover-fairy-tales-shine{
     position: relative;
     left: 0px;
 }
+
+}
+
+
+
+@media screen and (max-width:404px){
+
+    .cover{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 12%;
+    }
+    
+    .cover_manga{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 12%;
+    
+    }
+    
+    
+    
+    
+    
+    /*MAIN МАНГА*/
+    
+    
+    
+    
+    
+    .manga{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    
+    
+    
+    
+    
+    /*MAIN СЕРИВЛЫ*/
+    
+    
+    
+    
+    
+    .serial{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    
+    
+    
+    
+    
+    /*MAIN СКАЗКИ*/
+    
+    
+    
+    
+    
+    .fairy-tales{
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    
 
 }
