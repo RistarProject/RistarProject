@@ -156,14 +156,14 @@ body{
 
 
 
-.cover{
+.our_cinema_films{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1170px;
 }
 
-.recommendations-for-viewing h3{
+.our_cinema h3{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #ffffff;
@@ -174,14 +174,14 @@ body{
     margin-bottom: 20px;
 }
 
-.cover_manga{
+.our_library_manga{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1170px;
 }
 
-.recommendations-for-forgiveness h3{
+.our_library h3{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #ffffff;
